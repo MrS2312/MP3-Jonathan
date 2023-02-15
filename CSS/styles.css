@@ -1,0 +1,196 @@
+/* Common */
+* { 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inspiration', cursive;
+}
+
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../IMG/fondo_one.jpg");
+    background-size: cover;
+    flex-direction: column;
+}
+
+
+/* Player */
+.player {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+    height: 520px;
+    width: 320px;
+    background-image: linear-gradient( rgb(24, 28, 253), rgb(132, 236, 236));
+    border-radius: 1rem;
+    padding: 0.5rem  1rem;
+    color: white;
+    box-shadow: 2px 2px 3px black;
+}
+
+
+.superior{
+    display: flex;
+    width: 100%;
+}
+
+/* Title */
+.title {
+    position: relative;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 0;
+    text-align: center;
+    font-size: 2.3rem;
+    width: 250px;
+}
+
+.superior i{
+    font-size: 1.5rem;
+    margin-top: 6px;
+    margin-right: 0;
+}
+
+.superior i:hover{
+color: aqua;
+}
+
+/* Cover */
+.cover {
+    display: flex;
+    width: 270px;
+    height: 270px;
+    border-radius: .3rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+    align-items: center;
+}
+
+
+.img1{
+
+    width: 280px;
+    height: 260px;
+    margin: auto;
+    right: 4px;
+    margin-top: 0;
+    position: relative;
+}
+
+/* .img2{
+    position: relative;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    top: -175px;
+    left: 95px;
+       
+} */
+
+/* Progress */
+.progress-container {
+    height: .6rem;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+}
+
+.progress {
+    background-color: rgb(10, 250, 1);
+    width: 0;
+    height: 100%;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+/* .controls:hover {
+    background-color: blue;
+    border-radius: 100%;
+} */
+
+.controls button {
+    background-color: transparent;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+}
+
+.controls button:hover{
+    background-color: blue;
+    border-radius: 30%;
+    margin: 0;
+
+    
+}
+
+.controls i {
+    font-size: 1.9rem;
+    color: white;
+}
+
+.select{
+    position: relative;
+    width: 40%;
+    margin-top: 15px;
+    margin-right:0;
+    padding-left:2rem;
+    text-align: justify;
+    background-color:rgba(255, 255, 255, 0.253) ;
+    color: white;
+    font-size: 3.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 3px black;
+}
+
+
+
+/* Songs */
+.songs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.songs li {
+    margin-bottom: 1rem;
+}
+
+.songs a {
+    color: rgb(26, 11, 241);
+    text-decoration:none;
+    margin-left: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.songs a:hover {
+    color: rgb(11, 226, 241);
+}
+
+
+footer{
+    margin-top: 29px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.151) ;
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+}

@@ -1,0 +1,12 @@
+Nota 1:
+Si abres la pagina desde el index, es decir dando doble click sobre 
+el archivo "index.html" funcionara perfectamente el archivo, 
+pero si lo abres desde un gestor de codigo como "Visual Studio Code" por
+ejemplo, necesitas si o si cambiar las rutas de los archivos en el 
+"index.html" eliminando el "/MP3_ANA" en todos los archivos que lo contengan
+y con eso queda la verdad quien sabe porque hace eso. De ahi en fuera todo
+funciona perfectamente
+
+Nota 2:
+Si vas a agregar mas canciones es en la parte donde esta el "script.js",
+en el diccionario de diccionarios ahi agregas las nuevas canciones.

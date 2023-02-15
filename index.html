@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Jonathan</title>
+
+    <link rel="shortcut icon" href="/IMG/LOGO(1).png" type="image/x-icon">
+    <meta property="og:description" content="MP3 desarrollado con HTML, CSS y JS">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Player -->
+    <main>
+        <div class="player">
+            <div class="superior">
+                <!-- Title -->
+                <h1 class="title" id="title">Reproductor MP3</h1>
+                <!-- <i id="menu" class="fas fa-bars"></i> -->
+            </div>
+            <div class="cover">
+                <!-- Cover -->
+                <img src="IMG/discoConCentro.png" alt="" class="img1" id="cover">
+                <!-- <img src="#" alt="" class="img2" id="cover2"> -->
+            </div>
+            <!-- Audio HTML Media elememt -->
+            <audio src="" id="audio"></audio>
+
+            <!-- Progress bar -->
+            <div id="progress-container" class="progress-container">
+                <section id="progress" class="progress"></section>
+            </div>
+
+            <!-- Controls -->
+            <section class="controls">
+                <button class="prev">
+                    <i id="prev" class="fas fa-backward"></i>
+                </button>
+                <button class="play">
+                    <i id="play" class="fas fa-play"></i>
+                </button>
+                <button class="next">
+                    <i id="next" class="fas fa-forward"></i>
+                </button>
+            </section>
+        </div>
+        <div class="select">
+        <!-- Song list -->
+        <p>Lista de Canciones</p>
+        <ul class="songs" id="songs">
+            <!-- <li><a href="#">1.-Fix You</a></li>
+            <li><a href="#">2.-Sky Full Stars</a></li>
+            <li><a href="#">3.-Something Just Like This</a></li> -->
+        </div>
+
+    </main>
+    <footer>
+        <p>Todos los derechos reservados Jonathan Sánchez</p>
+    </footer>
+
+
+    <script src="JS/sript.js"></script>
+</body>
+
+</html>
